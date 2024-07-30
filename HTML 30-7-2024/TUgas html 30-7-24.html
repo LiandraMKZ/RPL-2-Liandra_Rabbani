@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sejarah dan Perbandingan Pemrograman</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.8;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f2f5;
+        color: #333;
+      }
+      header {
+        background: #007bff;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      .content {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #001affc6;
+        border-bottom: 2px solid rgba(4, 25, 130, 0.71);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #007bff;
+        color: #fff;
+      }
+      td {
+        background-color: #f9f9f9;
+      }
+      .table-container {
+        overflow-x: auto;
+      }
+      footer {
+        background: #007bff;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sejarah PBO dan Perbedaan Pemrograman Prosedural dan PBO</h1>
+    </header>
+
+    <div class="content">
+      <h2>Sejarah Pemrograman Berorientasi Objek (PBO)</h2>
+      <p>
+        Pemrograman Berorientasi Objek (PBO) merupakan salah satu paradigma
+        pemrograman yang paling berpengaruh dalam sejarah pengembangan perangkat
+        lunak. Konsep ini berfokus pada penggunaan "objek" sebagai unit dasar
+        dalam pemrograman, yang mencakup data dan perilaku yang relevan. Berikut
+        adalah ringkasan tentang perkembangan awal konsep objek dan kelas,
+        bahasa pemrograman pertama yang mendukung PBO, serta peran penting
+        bahasa pemrograman seperti Smalltalk, C++, dan Java dalam mempopulerkan
+        PBO.
+      </p>
+      <h3>Perkembangan Awal Konsep Objek dan Kelas</h3>
+      <p>
+        Konsep dasar dari objek dan kelas pertama kali diperkenalkan pada tahun
+        1960-an melalui bahasa pemrograman Simula, yang dikembangkan oleh
+        Ole-Johan Dahl dan Kristen Nygaard di Norwegia. Simula awalnya dirancang
+        untuk simulasi peristiwa dunia nyata dan memperkenalkan konsep "kelas"
+        yang digunakan untuk mengorganisasikan data dan metode yang terkait
+        dalam satu entitas. Kelas memungkinkan definisi tipe-tipe objek yang
+        dapat dibuat, digunakan, dan dimanipulasi dalam program, yang kemudian
+        menjadi fondasi bagi PBO.
+      </p>
+      <h3>Bahasa pemrograman pertama yang mendukung PBO.</h3>
+      <p>
+        Simula 67 dianggap sebagai bahasa pemrograman pertama yang mendukung
+        konsep PBO secara penuh. Dalam Simula 67, konsep kelas dan objek
+        diperkenalkan, yang memungkinkan pengembang untuk membuat objek
+        berdasarkan kelas, mengatur pewarisan (inheritance), dan mengenkapsulasi
+        data serta fungsi dalam objek. Ini memberikan kerangka kerja awal yang
+        memfasilitasi pengembangan perangkat lunak yang lebih modular dan
+        terstruktur.
+      </p>
+      <h3>Peran bahasa pemrograman seperti Smalltalk, C++, dan Java dalam mempopulerkan PBO.</h3>
+      <p>
+        Pada tahun 1970-an, bahasa pemrograman Smalltalk yang dikembangkan oleh
+        Alan Kay dan timnya di Xerox PARC memperluas dan memperkuat konsep PBO.
+        Smalltalk adalah bahasa pemrograman yang sepenuhnya berorientasi objek,
+        dengan semua elemen dalam bahasa tersebut dianggap sebagai objek.
+        Smalltalk juga memperkenalkan antarmuka pengguna grafis yang interaktif,
+        yang memungkinkan pengembang untuk bereksperimen dan memahami konsep PBO
+        dengan lebih mudah. Pada tahun 1980-an, Bjarne Stroustrup di Bell Labs
+        mengembangkan C++, yang merupakan perluasan dari bahasa C dengan
+        tambahan fitur PBO. C++ menggabungkan efisiensi dan kinerja tinggi dari
+        C dengan fleksibilitas dan modularitas yang ditawarkan oleh PBO. Ini
+        membuat C++ sangat populer dalam pengembangan perangkat lunak sistem,
+        game, dan aplikasi lainnya yang membutuhkan kinerja tinggi. Pada
+        pertengahan 1990-an, Sun Microsystems merilis Java, yang dirancang untuk
+        menjadi bahasa pemrograman yang portabel, aman, dan mudah digunakan.
+        Java mengadopsi konsep PBO secara ekstensif, dengan penekanan pada
+        pengelolaan memori otomatis dan keamanan. Slogan "Write Once, Run
+        Anywhere" menjadikan Java pilihan populer untuk pengembangan aplikasi
+        web dan enterprise, dan membantu menyebarluaskan konsep PBO ke khalayak
+        yang lebih luas.
+      </p>
+      <h2>Dampak PBO terhadap Pengembangan dan Pemeliharaan Perangkat Lunak</h2>
+      <p>PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara dengan berbagai cara. Pertama, PBO memungkinkan modularitas yang lebih tinggi, dengan memisahkan logika program ke dalam objek-objek yang mandiri. Ini membuat kode lebih mudah dipahami, diuji, dan dipelihara. Kedua, konsep pewarisan dan polimorfisme memungkinkan pengembangan perangkat lunak yang lebih fleksibel dan dapat diperluas, dengan memungkinkan kode untuk digunakan kembali dan diperbarui dengan lebih sedikit usaha.
+
+        Enkapsulasi, salah satu prinsip utama PBO, menyembunyikan detail implementasi suatu objek dari objek lain, mengurangi ketergantungan antar bagian-bagian program. Hal ini membuat perangkat lunak lebih tahan terhadap perubahan dan lebih mudah dikelola dalam jangka panjang.
+        
+        Secara keseluruhan, PBO telah membawa perubahan signifikan dalam praktik pengembangan perangkat lunak, menjadikannya lebih terstruktur, modular, dan mudah dikelola. Paradigma ini tetap menjadi salah satu pendekatan utama dalam pengembangan perangkat lunak hingga saat ini.</p>
+    </div>
+
+    <div class="content">
+      <h2>Perbandingan Pemrograman Prosedural dan PBO</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Aspek</th>
+              <th>Pemrograman Prosedural</th>
+              <th>Pemrograman Berorientasi Objek</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Struktur Program</td>
+              <td>
+                Program dibagi menjadi fungsi atau prosedur yang melaksanakan
+                operasi tertentu secara berurutan.
+              </td>
+              <td>
+                Program dibagi menjadi objek yang menggabungkan data dan metode
+                untuk berinteraksi satu sama lain.
+              </td>
+            </tr>
+            <tr>
+              <td>Pendekatan</td>
+              <td>
+                Fokus pada urutan prosedur atau fungsi untuk menyelesaikan
+                tugas.
+              </td>
+              <td>
+                Fokus pada model dunia nyata dengan objek yang berinteraksi
+                untuk menyelesaikan tugas.
+              </td>
+            </tr>
+            <tr>
+              <td>Kelebihan</td>
+              <td>
+                Cocok untuk aplikasi sederhana dengan proses linear,
+                implementasi dan debugging yang lebih mudah pada kasus
+                sederhana.
+              </td>
+              <td>
+                Mendukung enkapsulasi, pewarisan, dan polimorfisme yang
+                mempermudah pengelolaan kode, pemeliharaan, dan pengembangan
+                berkelanjutan.
+              </td>
+            </tr>
+            <tr>
+              <td>Contoh Bahasa Pemrograman</td>
+              <td>C, Pascal, Fortran</td>
+              <td>Smalltalk, C++, Java</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>&copy; Liandra Rabbani XI RPL 2</footer>
+  </body>
+</html>
